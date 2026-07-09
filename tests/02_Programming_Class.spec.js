@@ -1,6 +1,6 @@
  // Build a TestUser class with email, role, fullName() and Make all fields private; expose only what tests need.
 
-import { test } from '@playwright/test'
+const { test } = require('@playwright/test')
 
 class TestUser
 {

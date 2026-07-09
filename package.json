@@ -1,5 +1,5 @@
 {
-  "name": "02-frontend-automation",
+  "name": "sdet-path-project",
   "version": "1.0.0",
   "scripts": {
     "test": "npx playwright test",
@@ -7,6 +7,7 @@
     "report": "npx playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.44.0"
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
   }
 }
